@@ -1,0 +1,108 @@
+/*Imagen grande en el menu principal*/
+.imagenBig{
+    display: flex;
+    position: relative;
+    opacity: 85%;
+    text-align: center;
+
+}
+/*Texto que se encuentra dentro de la Imagen grande en el menu principal*/
+.description{
+    display: flex;
+    text-align: center;
+    font-family:  sans-serif ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,;
+    padding: 15px 50px;
+    font-size: 35px;
+    background-color: #ebeff1 ;
+    opacity: 75%;
+}
+
+/*Texto que se encuentra dentro de la Imagen grande en el menu principal*/
+.imagenBig figure .description {
+    align-items: center;
+    display: flex;
+    top: 45%;
+    left: 1%;
+    color: #212121;
+    position: absolute;
+    display: block;
+    overflow: auto;
+}
+/*Varias Imagenes*/
+div figure a img{
+    border-radius: 8%;
+}
+/*Id Image */
+#image{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width:1800px ;
+    height: 350px;
+}
+
+.redonda img{
+    text-align: center;
+    width: 350px;
+    height: 320px;
+}
+
+figure{
+    position: relative;
+    float: right;
+}
+figcaption{
+    font-family: 'Times New Roman', Times, serif;
+    color: #858282;
+    font-size: 25px;
+}  
+
+/*La lista que esta dentro del la clase info*/
+#info ul{  
+    list-style: none;
+}
+
+/* contenidos se le va a aplicar js*/
+#contenidos{
+    align-items: center;
+    width: auto;
+    height: auto;
+    border: solid 4px rgb(100, 110, 244);
+    text-align: center;
+}
+
+/*Clase info*/
+#info{
+    text-align: center;
+    color: rgb(181, 184, 185);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+
+ul li:hover{
+    color: black;
+    text-decoration: underline;
+}
+.redonda figure img:hover {
+    transform: scale(1.1);
+}
+
+figcaption:hover{
+    transform: scale(1.5);
+    text-decoration: underline;
+}
+
+#contactos li{
+    color: black;
+    list-style:square;
+    font-size:25px;
+}
+#redes{
+text-align: center;
+}
+#fijo{
+    text-align: right;
+    position: fixed;
+}

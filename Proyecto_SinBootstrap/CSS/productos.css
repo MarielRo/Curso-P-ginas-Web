@@ -1,0 +1,43 @@
+/* Estilos a las páginas de closets, oficinas,dormitorios,cocinas*/
+
+body{ /*cuerpo de las páginas*/
+    background-color: #ebeff1;
+    width: 90%;
+    margin: 20px auto;
+}
+.closet, .oficina, .cocina, .dormi {
+    font-size:28px;
+}
+
+#imagenes{
+    text-align: center;
+    width: 1800px;
+    height: 1500px;
+}
+
+figure img{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 550px;
+    height: 450px;
+    border-radius: 10%;
+}
+img:hover{
+    transform: scale(1.1); 
+}
+
+#contactos li{
+    color: black;
+    list-style:square;
+    font-size:25px;
+}
+#redes{
+    text-align: center;
+}
+
+#fijo{
+    text-align: center;
+    position: fixed;
+}
+

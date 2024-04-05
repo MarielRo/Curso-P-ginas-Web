@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mariel Rojas"> <!--Autora de la Pagina-->
+    <meta name="description"content="Muebles"> <!--Descripcion-->
+    <link rel="icon" href="Imagenes/logo.png" sizes="32x32" type="image/png"><!--Favicon-->  
+    <link rel="stylesheet" href="CSS/index_menu_.css"> <!--Css del menu-->
+    <link rel="stylesheet" href="CSS/contactenos.css">
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" type="text/javascript"></script>
+    <script src="JavaScript/contactenos.js" type="text/javascript" async defer></script>
+    <script src="JavaScript/formulario.js" type="text/javascript" async defer></script>
+    <script src="lib/jquery.js"></script>
+    <script src="dist/jquery.validate.js"></script>
+    <title> White & Red Studio </title> <!-- Titulo de la página -->
+</head>
+<body>
+    <div id="pFija">
+        <header> <!-- Encabezado  -->
+            <img class="logo" src="Imagenes/Logo.png" alt="Logo">
+            <h1> White and Red Studio </h1>
+            <hr> <!-- línea horizontal -->
+        </header>
+        <section id="fijo">
+            <a href="https://instagram.com/wrstudio_cr?igshid=YmMyMTA2M2Y=" target="_blank">
+                <i class="fa-brands fa-instagram" style="color: black;font-size: 23px;"></i></a>
+            <a href="https://www.facebook.com/wrstudiocr?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"
+                    style="color: black;font-size: 23px;"></i></a>
+        </section>
+    
+        <section> <!--Sección que contiene una lista con el menú -->
+            <nav class="menu"> <!--Menú y una lista -->
+                <ul class="lista">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="cocinas.html">COCINAS</a></li> <!--Página de cocinas-->
+                    <li><a href="closets.html">CLOSETS</a></li> <!--Página de closets-->
+                    <li><a href="dormitorios.html">DORMITORIOS</a></li> <!--Página de dormitorios-->
+                    <li><a href="oficinas.html">OFICINAS</a></li> <!--Página de oficinas-->
+                    <li><a href="contactenos.html">CONTÁCTENOS</a></li> <!--Página de contactos-->
+                </ul>
+            </nav>
+        </section><!--Fin de la Sección que contiene una lista con el menú -->
+    </div>
+    <hr width="57%"><br> <!-- línea horizontal -->
+
+    <section class="contenedor">
+        <p> No lo imagine,mejor vívalo. En White & Red Studio utilizamos los últimos recursos tecnológicos para que nuestros clientes puedan experimentar proyecciones realistas e inmersivas de los espacios y acabados de cada proyecto, incluso antes de contratarlo. !Déjenos sorprenderte!</p>
+    </section>
+    <section> <!--Formularios -->
+        <form id="validateForm" action="mailto:info@wrstudiocr.com" method="post" enctype="text/plain" class="formulario">
+            <fieldset>
+                <div>
+                    <legend class="tittle">RECIBIR MÁS INFORMACIÓN</legend>
+                </div>
+                
+                <div class="filas">
+                    <i class="fa-solid fa-user"s></i>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo">
+                </div>
+                <br>
+                <div class="filas">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="mail" id="correo" name="correo" placeholder="Correo"/>
+                </div>
+                <br>
+                <div class="filas">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" id="telefono"  name="telefono" placeholder="Tel&eacute;fono:"/>
+                </div>
+                <br>
+                <div class="filas1">
+                    <input id="enviar" type="submit" value="Enviar Datos"> <br>
+                </div>
+                <br>
+                <div class="filas1">
+                    <input id="eliminar" type="reset" value="Limpiar Formulario"> <br>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <hr> <!-- línea horizontal -->
+    <section> <!--lista con informacion de contacto  -->
+        <h2><i>Contáctenos:</i></h2>
+        <ul id="contactos">
+            <li> Correo:&nbsp;info@wrstudiocr.com </li>
+            <li>Teléfono:&nbsp;8887-8776</li>
+        </ul>
+        <section id="redes"> <!--Links de las redes sociales -->
+            <a href="https://instagram.com/wrstudio_cr?igshid=YmMyMTA2M2Y=" target="_blank">
+                <i class="fa-brands fa-instagram" style="color: black;font-size: 30px;"></i>
+            </a>
+            <a href="https://www.facebook.com/wrstudiocr?mibextid=ZbWKwL" target="_blank">
+                <i class="fa-brands fa-facebook" style="color:black;font-size: 30px;"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=50670640032&text&type=phone_number&app_absent=0"  target="_blank">
+                <i class="fa-brands fa-whatsapp" style="color:black;font-size: 30px;"></i>
+            </a>
+        </section>
+    </section>
+
+    <br><br> <!--Saltos de Linea -->
+
+</body>
+</html>

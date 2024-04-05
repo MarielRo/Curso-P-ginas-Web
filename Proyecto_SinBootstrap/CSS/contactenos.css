@@ -1,0 +1,38 @@
+.tittle{
+    text-align: center;
+    font-weight: 200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #9c9c9c;
+    color:#ebeff1;
+}
+form{
+    width: 450px;
+    height: 450px;
+    margin: 10px auto;
+    background: #f0f0f0;
+}
+
+.filas input {
+    margin-top: 33px;
+    margin-left: 20px;
+}
+
+.filas i{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+#enviar{
+    align-items: center;
+    text-align: center;
+    background-color: #d6dde0;
+}
+#eliminar{
+    text-align: center;
+    background-color: #d6dde0;
+}
+
+#redes{
+    text-align: center;
+}
