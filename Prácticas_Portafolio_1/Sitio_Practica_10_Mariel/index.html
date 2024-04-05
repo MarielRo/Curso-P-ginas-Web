@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mariel Rojas" > <!-- Autor --> 
+    <meta name="description" content="Práctica 10 Cajas"> <!-- Descripción --> 
+	<meta name="keywords" content="código HTML,Cajas"> <!-- palabras clave --> 
+    <link rel="icon" href="Images/favicon.png" sizes="16x16" type="image/png"> <!-- Favicon --> 
+    <link rel="stylesheet" href="css/misEstilos.css"> <!-- Link del CSS -->
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css"> 
+     <title>Práctica-Periódico</title> <!-- Título de la Página Web --> 
+</head>
+<body> <!-- Cuerpo de la Página Web -->
+
+    <div id="all"> 
+        <header class="header"> <!-- Encabezado principal de la Página Web -->
+            <h1>Práctica Periódico</h1> 
+        </header>
+    
+        <section> <!-- Barra de Navegación -->
+            <nav id="menu"> <!-- id menu -->
+                <ul id="texto" >
+                    <li class="ima"><a href=""><img src="Images/nacional.png" width="20" height="15" >Nacional</a></li>
+                    <li><a href=""><img src="Images/deporte.png" width="20" height="15">Deportes</a></li>
+                    <li><a href=""><img src="Images/sucesos.png" width="20" height="15">Sucesos</a></li>
+                    <li><a href=""> <img src="Images/tecnologia.jpg" width="20" height="15">  Tecnología</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="seccionarticulos"> <!-- Sección que contiene dos articulos -->
+            <article> <!-- Primer artículo  -->
+                <header>  <!-- Header del artículo -->
+                    <hgroup>  <!-- Hgroup  -->
+                        <h3> Sucesos </h3>
+                        <h4> Última hora y noticias en vivo de la guerra de Rusia en Ucrania</h4>
+                    </hgroup>
+                    <time datetime="15/03/2023" pubdate> Publicado el 15/03/2023  </time>
+                </header>
+
+                <figure>  <!-- figura  -->
+                    <img src="Images/ucrania.png" width="200" height="150" > 
+                    <figcaption>Guerra en Ucrania</figcaption>
+                </figure>
+                <p>El ministro de Exteriores ruso, Serguéi Lavrov, acusó este miércoles a Estados Unidos de "ignorar" las restricciones del espacio aéreo que Rusia impuso en las regiones costeras del Mar Negro desde el inicio de la guerra con Ucrania..</p>  <!-- Parráfo con la noticia  -->
+                <footer>  <!-- Footer del artículo  -->
+                    <p>Comentarios(0)</p>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <hgroup>  <!-- Hgroup con título y subtítulo  -->
+                        <h3>Deportes</h3>
+                        <h3>Saprissa siempre gana Clásicos</h3>
+                    </hgroup>
+                    <time datetime="14/03/2023" pubdate> Publicado el 14/03/2023  </time>
+                </header>
+                <figure> <!-- figura  -->
+                    <img src="Images/saprissa.png" width="200" height="150">
+                    <figcaption>Saprissa</figcaption>
+                </figure>
+                <section>  <!-- Parráfo con la noticia  -->
+                    <p>Gloriana Villalobos, jugadora del Deportivo Saprissa recalcó: “No hay palabras para describir lo que es un partido entre Saprissa y la Liga, es el Clásico del Fútbol Nacional, siempre hay esa rivalidad que tanto los que estamos a este lado como los que están al otro lado siempre queremos ganar. Está demás decir que Saprissa siempre gana Clásicos y siempre quiere ganar los clásicos” mencionó.</p>
+                </section>
+                <footer> <!-- Footer del artículo  -->
+                    <p>Comentarios(0)</p>
+                </footer>
+            </article>
+        </section>
+
+        <aside id="aside">  <!-- Aside  -->
+            <h3>Temas Relacionados</h3>
+            <figure>   <!-- Figura representativa   -->
+                <img src="Images/Natacion_.jpg" width="150px" >
+            </figure>
+            <figcaption>Natacion</figcaption>
+
+            <nav id="menu"> <!-- Menu   -->
+                <ul id="texto" >
+                    <li class="ima
+                    "><a href=""><img src="Images/nacional.png" width="20" height="15" >Nacional</a></li>
+                    <li><a href=""><img src="Images/deporte.png" width="20" height="15">Deportes</a></li>
+                    <li><a href=""><img src="Images/sucesos.png" width="20" height="15">Sucesos</a></li>
+                    <li><a href=""> <img src="Images/tecnologia.jpg" width="20" height="15">  Tecnología</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <footer id="footer"> <!-- Footer de la página -->
+            <br><br><br>
+            <hr>
+            Página realizada por Mariel Rojas 2023
+
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/"  target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    
+        </footer>
+    </div>
+</body>
+</html>

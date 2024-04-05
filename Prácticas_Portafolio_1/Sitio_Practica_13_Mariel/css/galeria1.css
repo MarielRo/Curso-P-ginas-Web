@@ -1,0 +1,49 @@
+div figure img{
+    border-radius:10% ;    
+}
+
+#img{
+    text-align: center;
+    background-color: rgb(188, 186, 186);
+    width: 1400px;
+    height: 1000px;
+    margin: auto;
+}
+
+.imagen {
+    padding: 1em;
+    float: left;
+    position: relative;
+}
+
+p{    
+    font-family: 'Times New Roman', Times, serif;
+    padding: 4px 55px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+
+}
+
+.imagen figure p {
+    top: 45%;
+    left: 1%;
+    color: white;
+    position: absolute;
+    display: none;
+    overflow: auto;
+}
+
+.imagen:hover p{
+    display: block;
+}
+
+.imagen:hover{
+    filter: sepia(70%);
+}
+
+
+
+
+
+

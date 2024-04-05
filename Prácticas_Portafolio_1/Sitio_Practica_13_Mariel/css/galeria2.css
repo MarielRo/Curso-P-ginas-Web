@@ -1,0 +1,61 @@
+div figure img{
+    border-radius:10% ;    
+}
+
+#img{
+    text-align: center;
+    background-color: rgb(188, 186, 186);
+    width: 1400px;
+    height: 1000px;
+    margin: auto;
+}
+
+figure {
+    position: relative;
+    float: left;
+
+}
+
+/* Imagen se hace grande paulatinamente */
+figure:hover{
+    transform: scale(1.5);
+}
+/* Diferentes filtros investigados*/
+.imagen1{
+ filter:contrast(50%)   
+}
+
+.imagen2{
+ filter:brightness(50%)   
+}
+
+.imagen3{
+ filter:opacity(50%)   
+}
+
+.imagen4{
+ filter:saturate(50%) 
+}
+
+.imagen5{
+ filter:drop-shadow(20px 20px white)   
+}
+
+.imagen6{
+ filter:hue-rotate(100deg)   
+}
+
+.imagen7{
+ filter:blur(2px)   
+}
+
+.imagen8{
+ filter:grayscale(80)  
+}
+
+.imagen9{
+ filter:invert(70%)    
+}
+
+
+

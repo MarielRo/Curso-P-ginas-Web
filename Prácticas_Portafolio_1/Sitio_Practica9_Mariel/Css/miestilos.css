@@ -1,0 +1,48 @@
+#encabezado{
+    size: 200px;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    background-color:burlywood;
+    width: 600px;
+}
+
+
+.parrafo1 span {
+    color: rgb(38, 158, 50);
+    size: 100px;
+}
+
+.parrafo2 p a {
+    color: rgb(196, 44, 31);
+    size: 100px;
+    font-family:cursive ;
+}
+
+
+.parrafo3 span > em {
+    color: rgb(19, 235, 51);
+    size: 100px;
+}
+
+.parrafo4 p+p {
+    color: rgb(47, 22, 130);
+    size: 100px;
+}
+
+.class1{
+    color: black;
+    text-align: center;
+}
+.class2{
+    color: blueviolet;
+    text-align: center;
+}
+.class3{
+    color: green;
+    text-align: center;
+}
+.class4{
+    color: red;
+    text-align: center;
+}

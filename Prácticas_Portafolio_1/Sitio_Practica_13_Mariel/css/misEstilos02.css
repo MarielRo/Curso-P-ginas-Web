@@ -1,0 +1,37 @@
+
+section{
+    text-align: center;
+    background-color: grey;
+    display: flex;
+    width: 900px;
+    height: 900px;
+    margin: auto;
+    padding: 10px 10px 15px 15px;
+}
+
+#table{
+    text-align: center;
+    margin: auto;
+}
+
+.negro{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.blanco{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.negro:hover{
+    background-color: yellow;
+}
+.blanco:hover{
+    background-color: red;
+}
+

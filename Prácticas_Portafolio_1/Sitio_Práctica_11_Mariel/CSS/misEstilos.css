@@ -1,0 +1,35 @@
+/* Fondo de cada una de las páginas*/
+#body{  
+    background-color: rgb(249, 229, 192);
+}
+
+/*Div de todas las páginas de 400 x 300, centrado y con un degradado, su texto centrado */
+#div{
+    size: 400 x 300;
+    background-image: linear-gradient(rgb(239, 92, 6),rgb(236, 187, 144));
+    text-align: center;
+}
+
+/*Encabezado de la página Principal*/
+#header{
+font-size: medium;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(10, 34, 189);
+text-align: center;
+}
+/*Listas principales(Inicio|galería|Servicios|Contacto) */
+.nav .menu li{
+    list-style-type: lower-roman;
+} 
+
+
+/* Listas secundarias (Historia, quienes somos,musica,películas,deportes) */
+.nav .menu li ul li {
+    list-style-type: disc;
+} 
+
+/*Ultimas listas(1900, 2000, 2010, 2020, Clásica, Infantil, Salsa, Merengue, Acción, Drama, Infantiles, Baile, Karate, Atletismo)*/
+.nav .menu li ul li ul li {
+    list-style-type: lower-latin;
+} 
+

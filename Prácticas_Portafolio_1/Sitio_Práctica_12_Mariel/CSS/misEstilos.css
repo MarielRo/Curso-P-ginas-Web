@@ -1,0 +1,98 @@
+/*Header se coloca en el centro, de tamaño mediano, letra,color*/
+.header{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(102, 98, 98);
+    text-align: center;
+}
+/* Caracteristicas del menú*/
+#menu{
+    width: auto;
+    margin: 5px 25%;
+}
+
+/*Se le quitan las viñetas al menú*/
+ul{
+    list-style: none;
+}
+
+/* Color a las columnas */
+.columnas{
+    background-color: rgb(177, 175, 175);
+}
+
+/*Color y forma al menú */ 
+#menu li {
+    float: left;
+    background-color: rgb(226, 246, 239);
+    color: black;
+    text-decoration: none;
+    padding: 2px 8px;
+    display: block;
+    border: 1px solid;
+}
+
+/*El menú se muestra de color distinto cuando se coloca el mouse encima */
+#menu li:hover {
+    background-color: rgb(226, 232, 230);
+}
+
+/* Borde de la tabla por fuera */
+.table{
+    border: 1px solid black;
+    width: 250px;
+}
+
+/* Borde de la tabla por dentro*/
+.table th, .table td{
+    border: 1px solid black;
+}
+
+/*Las filas se muestra de color distinto cuando se coloca el mouse encima */
+table td:hover{
+    background-color: beige;
+}
+
+/* Primer columna se muestra de otro color*/
+#euro, #dolar, #libra, #yen{
+    background-color: rgb(202, 241, 241);
+}
+
+/* Iconos*/
+#euro{
+    background-image: url("../imagenes/euro.png");
+    padding: 10px;
+    text-align: center;
+    background-repeat: no-repeat ;
+    background-position: 0% 50%;
+}
+
+#dolar{
+    background-image: url("../imagenes/dolar.png");
+    padding: 10px;
+    text-align: center;
+    background-repeat: no-repeat ;
+    background-position: 1% 50%;
+}
+
+#libra{
+    background-image: url("../imagenes/libra.jpg");
+    padding: 10px;
+    background-repeat: no-repeat ;
+    background-position: 1% 50%;
+    text-align: center;
+}
+
+#yen{
+    background-image: url("../imagenes/yen.png");
+    padding: 10px;
+    background-repeat: no-repeat ;
+    background-position: 1% 50%;
+    text-align: center;
+}
+
+/*Primer y tercer fila de color amarillo pastel*/
+.fila1, .fila3{
+    background-color: rgb(244, 244, 181);
+}
+

@@ -1,0 +1,29 @@
+
+#body{
+    background-color: #f1f0a9;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(24, 24, 148);
+    text-align: center;
+    padding: 15px;
+}
+
+#section {
+    justify-content: space-around;
+    display: flex;
+}
+
+#section div p {
+    font-size: 10px;
+    padding: 5px;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
