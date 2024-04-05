@@ -1,0 +1,73 @@
+section p {
+    color: red;
+}
+
+section > p{
+    background-color: lightblue;
+} 
+
+h2 + p{
+text-transform: uppercase;
+}
+
+h2 ~ p{
+  border:3px dashed rgb(20, 20, 135);
+}
+   
+div p:first-child {
+    color: red;
+}
+
+#uno{list-style-type: square;
+ padding-left: 2em;
+}
+
+#dos{list-style-type: circle;
+    padding-left: 5em;
+}
+
+#tres{list-style-type: lower-roman;
+    padding-left: 2em;
+}
+
+
+#cuatro{list-style-image: url(../iMAGENES/flecha.png);
+    padding-left: 2em;
+}
+
+#cinco{list-style-image: url(../iMAGENES/flecha02.png);
+    padding-left: 5em;
+}
+
+.menu{
+    width: 180px ;
+    border: 1px solid #7c7c7c;
+}
+
+.menu{
+    width: 180px ;
+    border: 1px solid #7c7c7c;
+    border-bottom: none ;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    background: #677042;
+    border-bottom: 1px solid #7c7c7c;
+    border-top: 1px solid #fff;
+}
+
+.menu li a {
+    color:#333 ;
+    display: block;
+    padding: 0.2em 0.2em 0.5em;
+    text-decoration: none;
+
+}
+
+.menu li a:hover {
+background: #000;
+color: #fff;
+}
+

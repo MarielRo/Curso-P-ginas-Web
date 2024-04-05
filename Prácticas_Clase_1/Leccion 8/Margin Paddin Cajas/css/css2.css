@@ -1,0 +1,82 @@
+.texto1{
+    width: 200px;
+    border-width: 8px;
+    border-style: dashed;
+    border-color: #000 #069;
+    margin: 50px 20px 35px 35px;
+}
+
+.texto2{
+    width: 200px;
+    border-width: 8px;
+    border-style: dotted;
+    border-color: #000 #069;
+    margin: 50px 20px 35px 35px;
+}
+
+.texto3{
+    width: 200px;
+    border-width: 8px;
+    border-style: double;
+    border-color: #000 #069;
+    margin: 50px 20px 35px 35px;
+}
+
+.texto4{
+    width: 200px;
+    border-width: 8px;
+    border-style: groove;
+    border-color: #999 #069;
+    margin: 50px 20px 35px 35px;
+}
+
+.texto5{
+    width: 200px;
+    border-width: 12px;
+    border-style: ridge;
+    border-color: #999 #069;
+    margin: 50px 20px 35px 35px;
+}
+.texto6{
+    width: 200px;
+    border-width: 12px;
+    border-style: inset;
+    border-color: #999 #069;
+    margin: 50px 20px 35px 35px;
+}
+.texto7{
+    width: 200px;
+    border-width: 12px;
+    border-style: outset;
+    border-color: #999 #069;
+    margin: 50px 20px 35px 35px;
+}
+
+#cuerpo{
+    padding: 20px;
+    width: 270px;
+    border-width: 25px;
+    border-style: outset;
+    border-color: #1b2a0a #AEB404;
+    background-color: #CCCC;
+}
+
+.texto2:hover{
+    color: #069;
+    background-color: #1f611f;
+}
+.texto6:hover{
+    border-style: outset;
+}
+
+
+.texto7:hover{
+    border-style: inset;
+}
+
+
+.cuerpo:hover{
+    border-style: inset;
+}
+
+

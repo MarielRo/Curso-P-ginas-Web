@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mariel Rojas"> <!--Autora de la Pagina-->
+	<meta name="description"content="Formularios en Html"> <!--Descripcion-->
+    <title> Formulario Practica 06 </title>
+</head>
+
+ <body background="Imagenes/fondo.jpg">  <!-- Fondo de la Pagina -->
+
+   <header>  <!--  Encabezado -->
+        <h1 aling="center">Formulario </h1>
+    </header>
+
+    <nav aling="center"> <!-- Barra de navegacion -->
+        <li>Inicio del Formulario</li>
+    </nav>
+
+    
+    <section> 
+		<form action="mailto:marielrojas50@gmail.com" method="post" enctype="multipart/form-data">
+			<table width="auto" border="1" align="center" cellpadding="3" bgcolor="#FFC9CB">
+                
+                <tr> <!-- Primer Fila -->
+                    <td colspan="6" style="background-color: rgb(54, 171, 95);">
+                        <H3 aling="center"> Solicitud de Empleo  </H3></td>
+                </tr>
+
+				<tr>  <!-- Fila -->
+					<td  style="background-color: rgb(38, 167, 156);" >Nombre:</td>
+					<td colspan="2"><input type="text" name="nombre" value="" size="50" maxlength="20"> </td>
+                    <td  style="background-color: rgb(38, 167, 156);">Apellidos:</td>
+					<td colspan="2"><input type="text" name="apellidos" value="" size="50" maxlength="20"> </td>
+				</tr>
+
+                <tr>  <!--Fila -->
+					<td style="background-color: rgb(38, 167, 156);" >Direcci&oacute;n:</td>
+					<td colspan="5"><input type="text" id="miurl" name="miurl" value="" size="110" maxlength="100"> </td>
+				</tr>
+
+
+                <tr>  <!--Fila -->
+                    <td style="background-color: rgb(38, 167, 156);" >Telefono:</td>
+                    <td><input type="tel" id="telefono" name="telefono" value="" size="20" maxlength="20"> </td>
+
+                    <td style="background-color: rgb(38, 167, 156);" > <label for="fecha ">Fecha Nacimiento: </label> </td>
+                    <td><input type="date" name="fecha" value="" size="20" maxlength="20"> </td>
+
+                    <td style="background-color: rgb(38, 167, 156);" >Edad :</td>
+                    <td><input type="edad"  name="edad" value="" size="20" maxlength="3"> </td>
+                </tr>
+
+				<tr>  <!-- Fila -->
+                    <td style="background-color: rgb(38, 167, 156);"> País </td>
+                    <td>
+                        <select name="país" id="país">
+                            <option value="Guatemala"></option>
+                            <option value="Honduras"></option>
+                            <option value="El Salvador"></option>
+                            <option value="Nicaragua"></option>
+                            <option value="Costa Rica"></option>
+                            <option value="Panamá"></option>
+                        </select>
+                    </td>
+
+                    <td style="background-color: rgb(38, 167, 156);"> Nivel Académico: </td>
+                    <td >
+                        <select name="nivel" id="nivel">
+                            <option value="Primaria"></option>
+                            <option value="Secundaria"></option>
+                            <option value="Estudios Universitarios"></option>
+                            <option value="Posgrados"></option>
+                        </select>
+                    </td>
+
+                    <td style="background-color: rgb(38, 167, 156);"> Estado Civil: </td>
+                    <td >
+                        <select name="estado" id="estado">
+                            <option value="Unión Libre"></option>
+                            <option value="Soltero(A)"></option>
+                            <option value="Divorciado(A)"></option>
+                            <option value="Casado(A)"></option>
+                            <option value="Viudo(A)"></option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>  <!-- Fila -->
+                    <td style="background-color: rgb(38, 167, 156);">Pasatiempos</td>
+					<td colspan="2">
+                        <input type="checkbox" name="Estudiar"value="Estudiar">Estudiar <br>
+                        <input type="checkbox" name="Familia"value="Familia">Familia <br>
+                        <input type="checkbox" name="Salir a Pasear"value="Salir a Pasear">Salir a Pasear<br>
+                        <input type="checkbox" name="Capacitarse"value="Capacitarse"> Capacitarse<br>
+                        <input type="checkbox" name="Tiempo Libre"value="Tiempo Libre"> Tiempo Libre <br>
+                    </td>
+
+                    <td style="background-color:rgb(38,167,156);">Horario</td><!--botones de opción -->
+                    <td colspan="2">
+                        <input type="radio" name="Horario"> 9:00 am a 10:00 am<br>
+                        <input type="radio" name="Horario"> 10:00 am a 1:00 pm<br>
+                        <input type="radio" name="Horario"> 2:00 pm a 04:00 pm<br>
+                        <input type="radio" name="Horario"> 5:00 pm a 06:00 pm<br>
+                        <input type="radio" name="Horario"> 8:00 pm a 10:00 pm<br>
+                    </td>
+
+                    <tr>
+                        <td style="background-color: rgb(38, 167, 156);" > <label for="coment">Experiencia Laboral</label> </td>  <!--Comentarios -->
+                        <td colspan="2"> <textarea name="Experiencia" id="Experiencia" cols="30" rows="10"></textarea> </td>
+
+        
+                        <td style="background-color: rgb(38, 167, 156);" > <label for="coment">Comentario </label> </td> <!--Comentarios -->
+                        <td colspan="2">  <textarea name="Comentario" id="Comentario" cols="30" rows="10"></textarea> </td>
+                    </tr>
+                </tr>
+
+                <tr>  <!-- Fila -->
+                    <td colspan="3" style="background-color: rgb(38, 167, 156);" >
+                        <input type="reset" value="Limpiar Formulario">
+                    </td>
+                    <td colspan="3" style="background-color: rgb(38, 167, 156);" >
+                        <input type="submit" value="Enviar Datos">
+                    </td>
+                </tr>  
+
+			</table>
+		</form>
+	</section>
+
+    
+</body>
+</html>
